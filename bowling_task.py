@@ -21,7 +21,7 @@ def calc_bowling_score():
         score+=a
         shot_count+=1
       shots-=1
-  return score
+  return "Your Score is {} Points".format(score)
 
 
 
